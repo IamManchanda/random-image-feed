@@ -18,7 +18,6 @@ function getRandomNr() {
 
 for (let i = 0; i < rows * columns; i++) {
   const img = document.createElement("img");
-  console.log(getRandomSize());
   img.src = `${unsplashURL}${getRandomSize()}`;
   container.appendChild(img);
 }
